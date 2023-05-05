@@ -1,4 +1,4 @@
-# Apache Druid JNDI Vulnerable
+# Apache Druid JNDI Vuln
 ## Druid JNDI 注入漏洞利用脚本
 本项目是一个利用 Druid JNDI 注入漏洞的 Python 脚本。该漏洞存在于 Druid 的 indexer/v1/sampler 接口中，攻击者可以通过构造恶意请求，在目标服务器上执行任意命令。
 
