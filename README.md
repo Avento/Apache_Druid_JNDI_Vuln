@@ -1,8 +1,8 @@
 # Apache Druid JNDI Vulnerable
 ## Druid JNDI 注入漏洞利用脚本
-本项目是一个利用 Druid JNDI 注入漏洞的 Python 脚本。该漏洞存在于 Druid 的 indexer/v1/sampler 接口中，攻击者可以通过构造恶意请求，在目标服务器上执行任意命令。该漏洞的 CVE 编号为 CVE-2021-38645。
+本项目是一个利用 Druid JNDI 注入漏洞的 Python 脚本。该漏洞存在于 Druid 的 indexer/v1/sampler 接口中，攻击者可以通过构造恶意请求，在目标服务器上执行任意命令。
 
-This project is a Python script that exploits the Druid JNDI injection vulnerability. The vulnerability exists in the indexer/v1/sampler interface of Druid, allowing an attacker to execute arbitrary commands on the target server by constructing a malicious request. The CVE number for this vulnerability is CVE-2021-38645.
+This project is a Python script that exploits the Druid JNDI injection vulnerability. The vulnerability exists in the indexer/v1/sampler interface of Druid, allowing an attacker to execute arbitrary commands on the target server by constructing a malicious request.
 
 ## 使用方法
 使用该脚本需要提供以下参数：
